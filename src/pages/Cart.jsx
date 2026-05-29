@@ -120,10 +120,9 @@ const Cart = () => {
 
         {cartItems.length === 0 ? (
           <div className="text-center py-20 text-gray-500">
+ 
+            <p className="text-xl font-light mb-6">Unga cart empty</p>
 
-            <p className="text-xl font-light mb-6">Your cart empty</p>
-
-         
             <button 
               onClick={() => navigate('/categories')} 
               className="bg-[#FF6F61] hover:bg-[#ff5b4c] text-white px-8 py-3 rounded-xl font-medium transition-all cursor-pointer shadow-md"
