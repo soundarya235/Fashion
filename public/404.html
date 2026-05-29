@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script>
+      // இது பிரவுசரை ரீலோட் ஆகும்போது சரியாக Hash-க்கு மாற்றும்
+      sessionStorage.redirect = location.href;
+      location.href = location.pathname.replace(/\/[^\/]*$/, "/index.html");
+    </script>
+  </head>
+</html>
