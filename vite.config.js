@@ -4,5 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/Fashion/",
+  base: "./", // "/Fashion/" என்பதற்கு பதிலாக "./" என்று மாற்றவும்
 })
