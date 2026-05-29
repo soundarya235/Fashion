@@ -7,8 +7,6 @@ import Checkout from './pages/Checkout';
 import About from './pages/About';
 import Contact from './pages/Contact';
 
-
-
 function App() {
   return (
     <Routes>
@@ -16,11 +14,9 @@ function App() {
       <Route path="/categories" element={<Categories />} />
       <Route path="/product-overview" element={<ProductOverview />} />
       <Route path="/cart" element={<Cart />} />
-      <Route path="/checkout" element={<Checkout />} /> {/* 👈 செக்கவுட் ரூட் */}
+      <Route path="/checkout" element={<Checkout />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
-      
-     
     </Routes>
   );
 }
